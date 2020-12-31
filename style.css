@@ -1,0 +1,64 @@
+@media screen and (max-width: 700px) {
+    /* Phone Layout  */
+    header {
+        font-family: 'Inconsolata';
+        font-size: larger;
+        margin: 2em;
+    }
+    .outerContainer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2em;
+        max-height: 50vh;
+    }
+    .imageContainer { 
+        max-height: 100%;
+    }
+    .textContainer {
+        display: flex-row;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    /* Desktop Layout */
+
+    header {
+        font-family: 'Inconsolata';
+        margin: 3em;
+    }
+
+
+    .outerContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 4em;
+    }
+    .imageContainer {
+        /* width: 50%; */
+        height: auto;
+    }
+
+
+}
+
+button{
+    background-color: #333333;
+    color: white;
+    font-family: 'Space Mono';
+    padding: 1em;
+    font-size: x-small;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.textContainer {
+    padding: 2em;
+    font-family: 'Space Mono';
+    display: flex-row;
+
+}
